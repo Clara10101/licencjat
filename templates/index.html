@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+{% block skrypty %}
+        <title>Bokeh plots</title>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+{% endblock %}
+<head>
+</head>
+
+<body>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>

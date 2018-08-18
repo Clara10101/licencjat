@@ -1,0 +1,37 @@
+.edycja {
+    margin-right: 0.5em;
+}
+
+.table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>th {
+    border-top-color: #ffccff;
+    background-color: #ffccff;
+}
+
+.main {
+    width: 850px;
+    margin: 1em auto 0 auto;
+}
+
+.razem {
+    margin-top: 36px;
+}
+
+.tablica-edycja td:last-child, .tablica-edycja th:last-child {
+    width: 10%;
+}
+
+.centered-pills {
+    text-align: center
+}
+.centered-pills ul.nav-pills {
+    display: inline-block
+}
+.centered-pills li {
+    display: inline
+}
+.centered-pills a {
+    float: left
+}
+* html .centered-pills ul.nav-pills, *+html .centered-pills ul.nav-pills {
+    display: inline
+}
